@@ -58,24 +58,3 @@ with open("scores.txt","r") as file:
             if sorted(names,reverse=True)[g] in countries[t]:
                 print(f"{r+1}){countries[t][0]}--Total score: {countries[t][1]}")
                 r+=1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
